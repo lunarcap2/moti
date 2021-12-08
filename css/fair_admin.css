@@ -1,0 +1,434 @@
+@charset "euc-kr";
+
+.centerBox .darkGray,
+.centerBox .darkGray a { color:#999999; }
+.centerBox .green,
+.centerBox .green a { color:#07fffc; }
+.centerBox .yellow,
+.centerBox .yellow a { color:#f6ff00; }
+.centerBox .gray,
+.centerBox .gray a { color:#cfcfcf; }
+.centerBox .blue,
+.centerBox .blue a { color:#0036ff; }
+.centerBox .nightblue,
+.centerBox .nightblue a { color:#0090ff; }
+.centerBox .red,
+.centerBox .red a { color:#ff0000; }
+.centerBox .orange,
+.centerBox .orange a { color:#ff6600; }
+.centerBox .black,
+.centerBox .black a { color:#333; }
+.centerBox .black_15_b,
+.centerBox .black_15_b a { color:#000; font-size:15px; font-weight:bold; }
+.centerBox .darkyellow,
+.centerBox .darkyellow a { color:#4b95a9; }
+
+.centerBox .blueBtn { background:#525f6d; color:#fff !important; border:1px solid #3e4c5c; }
+.centerBox .nightblueBtn { background:#007eff; color:#fff !important; border:1px solid #006fe1; }
+.centerBox .whiteBtn { background:#fff; border:1px solid #dbdbdb; }
+.centerBox .redBtn { background:#ff2a07; border:1px solid #000000; color:#fff; }
+.centerBox .blackBtn { background:#262f35; border:1px solid #000000; color:#fff; }
+.centerBox .orangeBtn { background:#ff6c00; border:1px solid #d85b00; color:#fff !important; }
+.centerBox .darkGrayBtn { background:#686868; border:1px solid #333333; color:#fff; }
+.centerBox .skyblueBtn { background:#4790ff; border:1px solid #257bff; color:#fff; }
+
+.height_60 { width:100%; height:60px; clear:both; }
+.height_05 { width:100%; height:5px; clear:both; }
+.height_10 { width:100%; height:10px; clear:both; }
+.height_15 { width:100%; height:15px; clear:both; }
+.height_20 { width:100%; height:20px; clear:both; }
+.height_30 { width:100%; height:30px; clear:both; }
+.height_40 { width:100%; height:40px; clear:both; }
+.height_50 { width:100%; height:50px; clear:both; }
+.height_70 { width:100%; height:70px; clear:both; }
+.height_80 { width:100%; height:80px; clear:both; }
+
+.selectbox.longBox { width:100% !important; }
+.selectbox.mBox { width:147px !important; }
+.selectbox.mlBox { width:239px !important; }
+.selectbox.sBox { width:100px !important; }
+.selectbox.ssBox { width:95px !important; }
+.selectbox.smBox { width:142px !important; }
+.txt.sBox { width:142px !important; }
+.txt.ssBox { width:80px !important; }
+.txt.mBox { width:300px !important; }
+.txt.smBox { width:376px !important; }
+.txt.mmBox { width:288px !important; }
+.txt.mlBox { width:210px !important; }
+.txt.lBox { width:699px !important; }
+.txt.llBox { width:620px !important; }
+.txt.slBox { width:480px !important; }
+
+.radiobox.sBox { min-width:60px !important; margin-right:0 !important; }
+
+/*버튼 가운데정렬*/
+.centerbtnBox { text-align:center; clear:both; padding:20px 0; }
+.centerbtnBox li { display:inline-block; margin-left:6px; }
+.centerbtnBox button { min-width:120px !important; height:47px; font-size:16px !important; color:#666666; }
+.centerbtnBox li:first-child { margin-left:0; }
+.centerbtnBox .orangeBtn { font-size:15px; padding:0 30px; }
+
+/*dataPick*/
+.dataPick { float:left; margin-right:10px; }
+.dataPick input[type=text] { width:150px !important; height:35px; float:left; margin-right:5px; }
+.dataPick .darkGrayBtn { padding:4px 10px 7px; margin-left:8px; margin-top:3px; }
+.dataPick img { margin-top:3px; float:left; }
+
+/*top*/
+.heardBox { width:100%; float:left; background:#313c43; color:#fff; }
+.heardBox dl { width:1000px; margin:0 auto; padding:25px 0 30px; height:20px; }
+.heardBox dl dt { float:left; }
+.heardBox dl dt img { margin-top:5px; }
+.heardBox dl dd { float:right; font-weight:bold; }
+.heardBox dl dd .redBtn { padding:2px 10px 5px; font-size:12px; }
+
+/*테이브텍스트렁렬*/
+.leftTextBox { text-align:left !important; }
+.ellipsis { overflow:hidden; text-overflow:ellipsis; white-space:nowrap; word-spacing:normal; max-width:100%; }
+.centerTextBox { text-align:center !important; }
+
+/*nav*/
+.navBox { width:100%; float:left; background:#262f35; color:#fff; font-size:13px; border-top:1px solid #000000; border-bottom:1px solid #000; }
+.navBox ul { width:1000px; margin:0 auto; }
+.navBox ul li { width:165.5px; float:left; text-align:center; font-size:16px; font-weight:bold; border-right:1px solid #000; }
+.navBox ul li:first-child { border-left:1px solid #000; }
+.navBox ul li.on { background:#141a1d; color:#f0ff00; }
+.navBox ul li a { display:block; padding:15px 0 20px; }
+
+.contentWrap { width:100%; float:left; padding-top:60px; padding-bottom:80px; }
+.centerBox {display:block;}
+.centerBox .btn_area {padding:30px 0 50px;}
+
+.listSort-area {zoom:1; padding-bottom:10px;}
+.listSort-area:after {content:""; display:block; clear:both;}
+.listSort-area .sort {float:left; width:100%; }
+.listSort-area h4,
+.listSort-area .desc {float:left; line-height:40px;}
+.listSort-area h4 {font-size:26px; color:#000;}
+.listSort-area .desc {font-size:18px; color:#666;}
+.listSort-area .desc strong {color:#ff0000;}
+.listSort-area .desc .f14 {font-size:14px; font-weight:normal; }
+.listSort-area .form {float:right;}
+.listSort-area .form p { display:inline-block; border:1px solid #dbdbdb; text-align:center; }
+.listSort-area .form p a { display:inline-block; padding:5px 15px 7px; color:#666666; }
+.listSort-area .form p.mailIcon a:before { content:""; width:15px; height:15px; background:url(../img/icon/iconS.png) 0 4px no-repeat; display:inline-block; vertical-align:-2px; padding-right:5px; }
+.listSort-area .form p.printIcon a:before { content:""; width:15px; height:15px; background:url(../img/icon/iconS.png) 0 -11px no-repeat; display:inline-block; vertical-align:-3px; padding-right:5px; }
+.listSort-area .form p.markIcon a:before { content:""; width:15px; height:13px; background:url(../img/icon/iconS.png) 0 -26px no-repeat; display:inline-block; vertical-align:-3px; padding-right:5px; }
+.listSort-area .form span.selectbox {position:relative; display:inline-block; *display:inline; zoom:1; height:40px; overflow:hidden; *margin-left:5px; vertical-align:middle;}
+.listSort-area .form span.selectbox span {display:block;height:18px;overflow:hidden;padding:10px 70px 10px 15px;background:url(http://image.career.co.kr/career_new/event/2017/moti/sub/arrow_select.gif) #fff no-repeat 100% 50%; color:#999; font-size:13px; line-height:18px;}
+.listSort-area .form span.selectbox select {z-index:1; position:absolute; left:0; top:0; width:100%; height:100%; margin:0; padding:0; opacity:0; filter:alpha(opacity=0);}
+.listSort-area input.chk {width:15px; height:15px; border:1px solid #dbdbdb; color:#666; font-size:13px; vertical-align:middle;}
+.listSort-area label.checkbox {display:inline-block; zoom:1; *display:inline; height:15px; background-position:10px 55%; line-height:15px; vertical-align:middle;}
+.listSort-area label.checkbox input.chk {width:15px; height:15px; opacity:0; filter:alpha(opacity=0);}
+.listSort-area label.checkbox span {color:#666;}
+.listSort-area label.checkbox.on span {color:#333;}
+.listSort-area .form.left {float:left;}
+.listSort-area .form .checkbox {border:1px solid #dbdbdb;padding:11px 12px 12px;margin-left:2px;cursor:pointer;}
+.listSort-area .search {position:relative; overflow:hidden; float:left; }
+.listSort-area .search .inp {position:relative; float:left; }
+.listSort-area .search .inp input.txt {width:338px; height:38px;  font-size:13px; color:#999999; line-height:38px; }
+.listSort-area .search .inp button {position:absolute; top:0; right:0; width:66px; height:40px; margin:0; font-size:14px;}
+.listSort-area .form .button label.checkbox span{color:#333;}
+.listSort-area .form .button label.checkbox.on span {color:#3180dc;}
+.listSort-area .form .nightblueBtn { padding:9px 19px; font-size:14px; line-height:18px;}
+.listSort-area .form > span {line-height:40px;}
+.listSort-area .form span.inp {margin-right:20px;}
+.listSort-area .form label.radiobox {margin-left:15px;}
+.listSort-area .form label.radiobox:first-child {margin-left:0;}
+.listSort-area .form ul { float:right; margin-top:10px; }
+.listSort-area .form ul li { font-size:17px; color:#666666; float:left; padding-left:10px; }
+.listSort-area .form ul .gray { font-size:12px; line-height:20px; }
+.listSort-area .search .orangeBtn { height:40px; padding:0 30px; margin-left:5px; }
+
+.abMinTable h5 { font-size:26px; font-weight:normal; letter-spacing:-2px; margin-bottom:15px; }
+.abMinTable table { width:100%; table-layout:fixed; border-collapse:collapse; }
+.abMinTable .tc { text-align:center; }
+.abMinTable table col.col1 { width:70px; }
+.abMinTable table col.col2 { width:100px; }
+.abMinTable table col.col3 { width:90px; }
+.abMinTable table col.col4 { width:150px; }
+.abMinTable table col.col5 { width:50px; }
+.abMinTable table col.col6 { width:140px; }
+.abMinTable table col.col7 { width:120px; }
+.abMinTable table col.col8 { width:110px; }
+.abMinTable table col.auto { width:auto; }
+.abMinTable table col.col9 { width:40px; }
+.abMinTable table col.col10 { width:130px; }
+.abMinTable table col.col11 { width:155px; }
+.abMinTable table col.col12 { width:275px; }
+
+.abMinTable table tr th {line-height:1.2;border:1px solid #e5e5e5; padding:8px 0; font-size:14px; background:#f8f9fb; font-weight:normal; }
+
+.abMinTable table tr .lBox { border-right:1px solid #e5e5e5; }
+.abMinTable table tr td { line-height:1.2;border:1px solid #e5e5e5; border-width:0 0 1px 0; padding:12px 10px; font-size:13px; color:#666666; }
+.abMinTable table tr td.leftTextBox.re {padding:15px 0 20px 48px;background:url(https://image.career.co.kr/career_new/event/2020/moti/re_bg.png) no-repeat 33px 20px; }
+.abMinTable table tr td input[type=checkbox]{ margin:0; }
+.abMinTable table tr .unberBar { text-decoration:underline; }
+.abMinTable table tr td .whiteBtn {margin:5px 0 0;padding:4px 6px 6px; font-size:11px; }
+.abMinTable table tr td .whiteBtn.button { margin-top:5px; }
+.abMinTable .on { background:#f0fdff; }
+.abMinTable table tr td a.underline { text-decoration:underline;}
+.abMinTable table tr:first-child th { border-top:0; }
+.abMinTable .rightBox { width:150px; float:right; }
+.abMinTable .black_11 { font-size:11px;}
+.abMinTable .black_12 { font-size:12px;}
+
+.abMinTable table tr td .list li { width:50%; float:left; }
+.abMinTable table tr td .darkGray { font-size:11px; }
+
+.abMinTable2 table {width:100%; table-layout:fixed; }
+table.line_on,
+.multiSelect.line_on,
+.editWrap.line_on { border-top:3px solid #525f6d; }
+.multiSelect.line_on .deth .tit,
+.multiSelect.line_on .deth dd { border-top:0; }
+.recruit2Step table.line_on tr:first-child th,
+.recruit2Step table.line_on tr:first-child td { border-top:0;}
+table.line_gray { border-top:1px solid #e5e5e5; }
+div.plusBox { margin-bottom:30px; }
+.listSort-area.line_on { border-bottom:3px solid #525f6d; }
+
+.abMinTable h4  {line-height:1;font-size:26px; font-weight:normal; padding-bottom:15px; letter-spacing:-3px; border-bottom:3px solid #525f6d; }
+.abMinTable h5  {line-height:1;font-size:26px; font-weight:normal; letter-spacing:-3px; }
+.abMinTable2 h4 {line-height:1;font-size:26px; font-weight:normal; margin-bottom:15px; letter-spacing:-3px; }
+.abMinTable h4 span.selectbox span { letter-spacing:-1px; }
+.abMinTable h4 .rightBox,
+.abMinTable2 h4 .rightBox,
+.abMinTable3 h6 .rightBox {line-height:1;float:right;margin-top: -10px;}
+.abMinTable h4 .rightBox button,
+.abMinTable2 h4 .rightBox button { padding:11px 19px 10px; font-size:14px; line-height:18px; letter-spacing:-1px; }
+.rightBox .selectbox { letter-spacing:-1px !important; }
+
+.abMinTable2 table col.col1 { width:70px; }
+.abMinTable2 table col.col2 { width:100px; }
+.abMinTable2 table col.col3 { width:90px; }
+.abMinTable2 table col.col4 { width:150px; }
+.abMinTable2 table col.col5 { width:180px; }
+.abMinTable2 table col.col6 { width:140px; }
+.abMinTable2 table col.col7 { width:250px; }
+.abMinTable2 table col.col8 { width:120px; }
+.abMinTable2 table col.col9 { width:104px; }
+.abMinTable2 table col.col10 { width:278px; }
+.abMinTable2 table col.col11 { width:50px; }
+.abMinTable2 table col.col12 { width:160px; }
+.abMinTable2 table col.auto { width:auto; }
+
+.abMinTable2 th {padding:10px 15px; background-color:#f8f9fb; border:solid #e5e5e5; border-width:0 1px 1px 1px; font-size:14px; font-weight:normal; text-align:left; vertical-align:middle; color:#333; line-height:20px;}
+.abMinTable2 td {min-height:24px; padding:15px; margin:0; border:1px solid #e5e5e5; border-width:0 0 1px 0; color:#666; font-size:13px; line-height:1;}
+.abMinTable2 th+td { border-right:1px solid #e5e5e5; }
+.abMinTable2 th+td+th+td { border-right:1px solid #e5e5e5; }
+.abMinTable2 th+td+th { border-left:0; }
+.abMinTable2 td .blackBtn { padding:0 15px 3px; height:40px; vertical-align:middle; }
+.abMinTable2 td > dl dd .selectbox { width:255px; }
+.abMinTable2 td textarea { width:748px; height:200px; font-size:13px; text-indent:0; line-height:150%; resize:none; border:1px solid #e5e5e5; color:#999999; }
+.abMinTable2 td .imgBox { width:100%; float:left; margin-top:10px; }
+.abMinTable2 td .imgBox img { border:1px solid #e5e5e5; }
+.abMinTable2 td input[type=text],
+.abMinTable2 td input[type=password] { max-width:100%;  height:36px; line-height:36px; border:1px solid #dbdbdb; font-size:13px; color:#999; }
+.abMinTable2 td .blueBtn { height:40px; padding:0 10px; vertical-align:-2px; }
+.abMinTable2 td .darkyellow {line-height: 20px;font-size: 14px;margin-left:3px;}
+.abMinTable2 td .reply {line-height:20px;font-size:14px;color:#6c6c6c;padding:0 0 0 15px;margin:0 0 0 5px;background:url(https://image.career.co.kr/career_new/event/2020/moti/notice_reply_bg.png) no-repeat 0 30%;}
+.abMinTable2 td .va_c_rebox {position:relative;padding:0 125px 0 0;font-size:0;}
+.abMinTable2 td .va_c_rebox textarea {width:100%;height:90px;overflow-y:auto;padding:5px;box-sizing:border-box;}
+.abMinTable2 td .va_c_rebox a {position:absolute;right:0;top:0;width:120px;height:90px;line-height:90px;font-size:18px;color:#646464;text-align:center;border:1px solid #bababa;background:#fff;box-sizing:border-box;}
+.abMinTable2 td .va_c_btye {line-height:1;padding:7px 2px 0 0;font-size:12px;color:#6c6c6c;text-align:right;}
+.abMinTable2 td .input_box.multi {margin: -10px 0 0 -18px;}
+.abMinTable2 td .input_box.multi .radiobox,
+.abMinTable2 td .input_box.multi .checkbox {margin:10px 0 0 18px;}
+.abMinTable2 td ul li {display:block;line-height:1.5;font-size:16px;color:#6c6c6c;}
+.abMinTable2 td ul li .va_c_tool {display:inline-block;line-height:1.5;height: 17px;vertical-align:middle;margin:0 0 0 5px;}
+.abMinTable2 td ul li .va_c_tool span {margin:0 2px 0 0;}
+
+.abMinTable3 h5 { font-size:26px; font-weight:normal; letter-spacing:-2px; margin-bottom:15px; }
+.abMinTable3 h6 { font-size:18px; font-weight:normal; letter-spacing:-2px; margin-bottom:15px; }
+.abMinTable3 h6 a {display:inline-block; position:relative; top:-5px; height:32px; font-size:13px; color:#010101; line-height:32px; vertical-align:middle;}
+.abMinTable3 h6 a.btnDown {padding:0 14px 0 42px; background:url(https://image.career.co.kr/career_new/event/2017/moti/manage/ico_download.png) no-repeat 14px 50%;}
+.abMinTable3 table { width:100%; table-layout:fixed; border-collapse:collapse; }
+.abMinTable3 .tc { text-align:center; }
+.abMinTable3 table col.col1 { width:70px; }
+.abMinTable3 table col.col2 { width:100px; }
+.abMinTable3 table col.col3 { width:90px; }
+.abMinTable3 table col.col4 { width:150px; }
+.abMinTable3 table col.col5 { width:50px; }
+.abMinTable3 table col.col6 { width:140px; }
+.abMinTable3 table col.col7 { width:120px; }
+.abMinTable3 table col.col8 { width:110px; }
+.abMinTable3 table col.auto { width:auto; }
+.abMinTable3 table col.col9 { width:40px; }
+.abMinTable3 table col.col10 { width:130px; }
+.abMinTable3 table col.col11 { width:155px; }
+.abMinTable3 table tr th { border:1px solid #e5e5e5; border-width:0 1px 1px 1px; padding:15px 0; font-size:14px; background:#f8f9fb; font-weight:normal; }
+.abMinTable3 table tr .lBox { border-right:1px solid #e5e5e5; }
+.abMinTable3 table tr td { border:1px solid #e5e5e5; border-width:0 0 1px 0; padding:15px 10px; font-size:13px; color:#666666; }
+.abMinTable3 table tr td.blue {text-align:left;}
+.abMinTable3 table tr td.blue a {display: inline-block;overflow: hidden;max-width: 83%;text-overflow: ellipsis;white-space: nowrap;}
+.abMinTable3 table tr td.blue .secret {display:inline-block;width:15px;height:17px;line-height:23px;vertical-align:top;margin:0 0 0 5px;font-size:0;background:url(https://image.career.co.kr/career_new/event/2020/moti/notice_secret.jpg)no-repeat 0 0;}
+.abMinTable3 table tr td input[type=checkbox]{ margin:0; }
+.abMinTable3 table tr .unberBar { text-decoration:underline; }
+.abMinTable3 table tr td .whiteBtn { padding:4px 6px 6px; font-size:12px; }
+.abMinTable3 .on { background:#f0fdff; }
+.abMinTable3 table tr td a { text-decoration:underline;}
+
+.situationBox h4 a.btnDown {padding:10px 14px 10px 42px; background:url(https://image.career.co.kr/career_new/event/2017/moti/manage/ico_download.png) no-repeat 14px 50%;}
+.situationBox h4 span.rightBox { float:right; padding-top:10px; }
+
+/*팝업*/
+.popupContent { width:100%; height:100%; position:absolute; top:50px; left:0; display:none; }
+.popupContent:after{clear:both;display:block;content:"";position:fixed;left:0;top:0;width:100%;height:100%;background-color:rgba(0,0,0,.7);z-index:1;}
+.popupContentBox { width:790px; float:left; position:relative; top:50%; left:50%; margin-top:-250px; margin-left:-395px; background:#fff; padding:30px; z-index:2; }
+.popupContentBox h1 { font-size:30px; font-weight:normal; border-bottom:1px solid #000000; padding-bottom:10px; letter-spacing:-3px; }
+.popupContentBox h1 span { font-size:16px; color:#666666; letter-spacing:-0.5px; }
+.popupContentBox .closeBtn { width:36px; height:36px; background:url(http://image.career.co.kr/career_new/event/2015/ssgjobfair/manage/closeBtn.png) no-repeat; position:absolute; top:20px; right:20px; cursor:pointer; }
+.popupContentBox .popup { width:100%; }
+.popupContentBox .popup > .boardBox .show2 { display:none; }
+.popupContentBox .show2 h5 { border-bottom:1px solid #000; }
+.popupContentBox .popup > .boardBox .show2 table { margin-top:0; border-top:0; }
+.popupContentBox .popup > .boardBox h2 { font-weight:normal; }
+.popupContentBox .popup > .boardBox h2 label.checkbox { margin-right:30px; }
+.popupContentBox .popup > .boardBox h2 label.checkbox input.chk {width:15px; height:15px; padding:0; margin:0; vertical-align:middle;}
+.popupContentBox .popup > .boardBox h2 label.checkbox > span { margin-left:9px; }
+.popupContentBox .popup > .boardBox .tabNav { width:100%; float:left; border-top:1px solid #000000; margin-top:10px; margin-bottom:30px; }
+.popupContentBox .popup > .boardBox .tabNav li { width:196.25px; height:51px; float:left; border:1px solid #e5e5e5; border-top:0; border-left:0; font-size:14px; line-height:51px; color:#666; }
+.popupContentBox .popup > .boardBox .tabNav li a { display:block; height:51px; padding:0 10px; }
+.popupContentBox .popup > .boardBox .tabNav li a:hover { background:#f8f9fb; text-decoration:underline; color:#000000; }
+.popupContentBox .popup > .boardBox .tabNav .on { background:#f8f9fb; text-decoration:underline; color:#000000; }
+.popupContentBox .popup > .boardBox .tabNav li:first-child,
+.popupContentBox .popup > .boardBox .tabNav li + li + li + li + li { border-left:1px solid #e5e5e5; }
+.popupContentBox .popup > .boardBox .tabNav li + li + li + li + li + li,
+.popupContentBox .popup > .boardBox .tabNav li + li + li + li + li + li + li { border-left:0; }
+.popupContentBox .popup > .boardBox .tabNav .disabled { color:#999; background:#f1f1f1; }
+.popupContentBox .popup > .boardBox .tabNav .disabled a { cursor:default; }
+.popupContentBox .popup > .boardBox .tabNav .disabled a:hover { background:#f1f1f1; text-decoration:none; color:#999; }
+
+.popupContentBox .popup h3 { text-align:center; font-size:22px; padding:30px 0; font-weight:normal; }
+.popupContentBox .popup table { width:100%; margin-top:20px; border:1px solid #e5e5e5; border-top:0; font-size:14px; }
+.popupContentBox .popup h3 + table { margin-top:0;}
+.popupContentBox .popup table th { border-right:1px solid #e5e5e5; background:#f8f9fb; text-align:left; font-weight:normal; }
+.popupContentBox .popup table th,
+.popupContentBox .popup table td { padding:15px; border-top:1px solid #e5e5e5; }
+.popupContentBox .popup table td { color:#666;}
+.popupContentBox .popup table td input.txt { height:38px; color:#999999; letter-spacing:-1px; }
+.popupContentBox .popup table td label.radiobox { font-size:14px; }
+.popupContentBox .popup table td span.selectbox { width:150px; }
+.popupContentBox .popup table td .disable span.selectbox span { background-color:#f3f3f3;}
+.popupContentBox .popup table td span.selectbox span { font-size:14px; }
+.popupContentBox .popup table td label.checkbox {margin:0;}
+.popupContentBox .popup table td label.checkbox input.chk {width:15px; height:15px; padding:0; margin:0; vertical-align:middle;}
+.popupContentBox .popup table td label.checkbox span {margin-left:3px;vertical-align:top;}
+.popupContentBox .popup table td a { text-decoration:underline; color:#004eff; font-weight:bold; }
+.popupContentBox .popup table td strong { color:#333; }
+.popupContentBox .popup table td > p { margin-top:5px;}
+.popupContentBox .popup table td > p:first-child { margin-top:0;}
+.popupContentBox .popup table td textarea { width:96%; height:100px; }
+.popupContentBox .popup table th+td+th { border-left:1px solid #e5e5e5; }
+.popupContentBox .popup table .pre { white-space:pre-line; }
+.popupContentBox .popup table .noInfo td { background:#f8f9fb; text-align:center; color:#666666; padding:40px 0; }
+.popupContentBox .popup dl { height:38px; line-height:38px; width:550px; margin:0 auto; padding:20px 0; }
+.popupContentBox .popup dl dt { float:left; font-size:14px; font-weight:bold; }
+.popupContentBox .popup dl dd { float:left; margin-left:15px; }
+.popupContentBox .popup dl dd input.txt { height:38px; }
+.popupContentBox .popup dl dd .blackBtn { padding:0 20px; vertical-align:-4px; height:38px; }
+.popupContentBox .popup table col.col1 { width:100px; }
+.popupContentBox .popup table col.col2 { width:200px; }
+.popupContentBox .popup table col.col9 { width:180px; }
+.popupContentBox .popup table #con_v3 { height:100px; overflow-y:scroll; vertical-align:top; }
+
+.popupContentBox .popup table col.auto { width:auto; }
+.afterBox h4 { font-size:14px; color:#ff6c00; text-align:center; margin-top:20px; }
+.afterBox { border-top:1px solid #e5e5e5; margin-top:20px; }
+
+.popupContentBox .advice table { width:100%; border:1px solid #e5e5e5; border-top-color:#333; border-bottom:0; font-size:14px; }
+.popupContentBox .advice table th,
+.popupContentBox .advice table td { padding:15px; border-bottom:1px solid #e5e5e5; }
+.popupContentBox .advice table th { border-right:1px solid #e5e5e5; background:#f8f9fb; font-weight:normal; }
+.popupContentBox .advice table td { border-left:1px solid #e5e5e5; text-align:center; }
+.popupContentBox .advice table td:first-child { border-left:0; }
+.popupContentBox .advice table col.col1 { width:80px; }
+.popupContentBox .advice table col.col2 { width:120px; }
+.popupContentBox .advice table col.auto { width:auto; }
+.popupContentBox .advice table .leftTextBox { font-weight:bold; }
+.popupContentBox .advice table td a { text-decoration:underline; color:#004eff; font-weight:bold; }
+
+.popupContentBox .person table { width:100%; font-size:14px; }
+.popupContentBox .person table th,
+.popupContentBox .person table td { height:42px; border-bottom:1px solid #e5e5e5; vertical-align:middle;}
+.popupContentBox .person table th { border-left:1px solid #e5e5e5; background:#f8f9fb; font-weight:normal; color:#000;}
+.popupContentBox .person table td { border-left:1px solid #e5e5e5; text-align:center; color:#666;}
+.popupContentBox .person table th:first-child,
+.popupContentBox .person table td:first-child { border-left:0; }
+.popupContentBox .person table strong { color:#333;}
+.popupContentBox .person table .red { color:#fe0000;}
+.popupContentBox .person table .blue { color:#004eff;}
+.popupContentBox .person table td a { display:block; text-decoration:underline; color:#004eff; font-weight:bold; }
+.popupContentBox .person table td .whiteBtn { padding:4px 12px 5px; font-size:12px; }
+
+.popupContentBox .board { width:100%; float:left; }
+.popupContentBox .board h5,
+.popupContentBox .show2 h5,
+.popupContentBox .board h4 { font-size:16px; height:50px; line-height:50px; font-weight:normal; }
+.popupContentBox .board h5 .whiteBtn { font-size:13px; line-height:20px; font-weight:bold; background:url(http://image.career.co.kr/career_new/event/2015/ssgjobfair/manage/writeicon.png) 10px 49% no-repeat; color:#0084ff; float:right; padding:7px 10px 10px 24px; }
+.popupContentBox .board ul { border-top:1px solid #000; color:#000000; }
+.popupContentBox .board ul li { width:48px; padding:10px; float:left; border:1px solid #e5e5e5; border-top:0; border-left:0; text-align:center; background:#f8f9fb; }
+.popupContentBox .board ul li + li { width:565px; }
+.popupContentBox .board ul li + li + li { width:113px; }
+.popupContentBox .board ul li:first-child { border-left:1px solid #e5e5e5; }
+.popupContentBox .board .scrollBox { height:237px; width:100%; overflow-y:scroll; border-bottom:1px solid #e5e5e5; position:relative; top:-1px; float:left; }
+.popupContentBox .board table { width:100%; font-size:14px; table-layout:fixed; margin-top:0; border:0; }
+.popupContentBox .board table col.col50 { width:53px; }
+.popupContentBox .board table col.colauto { width:377px; }
+.popupContentBox .board table col.col80 { width:70px; }
+.popupContentBox .board table col.col100 { width:90px; }
+.popupContentBox .board table td { border-top:0; vertical-align:middle; border-left:1px solid #e5e5e5; text-align:center; color:#666; padding:10px; border-top:1px solid #e5e5e5; }
+.popupContentBox .board table td.nodata { height:217px; }
+.popupContentBox .board table td:first-child { border-left:1px solid #e5e5e5; }
+.popupContentBox .board table tr:first-child td { border-top:0; }
+.popupContentBox .board table .left { text-align:left; }
+.popupContentBox .board table .last { border-right:0; }
+.popupContentBox .board table strong { color:#333;}
+.popupContentBox .board table td a { text-decoration:none; color:#000; }
+.popupContentBox .board table td .whiteBtn { padding:4px 12px 5px; font-size:12px;}
+
+#popupContent_4.popupContentBox { width:600px; }
+#popupContent_5.popupContentBox { width:938px; }
+#popupContent_1 { display:none;}
+#popupContent_2 { display:none;}
+
+/*현황*/
+.situationBox { width:100%; }
+.situationBox h4 { font-size:26px; font-weight:normal; letter-spacing:-2px; margin-bottom:10px; }
+.situationBox h4 span { float:right; font-size:14px; font-weight:normal; display:block; padding-top:15px; }
+
+.situationBox .titBox { font-size:23px; color:#fff; background:#303d60; text-align:center; padding:30px 0; }
+.situationBox .titBox_2 { font-size:23px; color:#fff; background:#2554d9; text-align:center; padding:30px 0; }
+
+.situationBox table { width:100%; border:1px solid #e5e5e5; border-width:0 1px 0 1px; }
+.situationBox .col1 { width:150px; }
+.situationBox table tr th { background:#f8f9fb; border-right:1px solid #e5e5e5; border-bottom:1px solid #e5e5e5; font-weight:normal; text-align:left; padding:15px;  font-size:15px; }
+.situationBox table tr td { border-bottom:1px solid #e5e5e5; padding:15px 20px 15px 10px; font-size:14px; position:relative; color:#666666; }
+.situationBox table tr td > ul { width:730px; float:left; line-height:180%; }
+.situationBox table tr td > ul li { display:inline-block; padding:0 8px; width:160px; }
+.situationBox table tr td .skyblueBtn { float:right; padding:3px 8px 6px; font-size:12px; font-weight:bold; }
+
+.situationBox table tr td > ul li .red { letter-spacing:0px;}
+
+/* 취업상태팝업-기업명검색 */
+.search-area {position:relative;}
+.search-area .search-result {display:none; position:absolute; top:45px; left:0; z-index:9999; width:480px; border:1px solid #dbdbdb; background:#fff}
+.search-area .search-result .lst-scroll {overflow-y:auto; overflow-x:hidden; max-height:200px; height: expression( this.scrollHeight > 200 ? "200px" : "auto" );}
+.search-area .search-result .lst-scroll .lst {}
+.search-area .search-result .lst-scroll .lst li.hover a {color:#999; background:#f4f4f4}
+.search-area .search-result .lst-scroll .lst a {display:block; height:32px; padding:0 10px; font-size:14px; color:#999; line-height:32px; text-align:left;}
+.search-area .search-result .lst-scroll .lst a .keyword {color:#004eff;text-align:left;}
+.search-area .search-result .lst-scroll .lst a:hover {color:#999; background:#f4f4f4}
+.search-area .nodata {padding:60px 0; color:#999; text-align:center; font-size:14px; line-height:20px;}
+.search-area .nodata em {color:#004eff; font-weight:normal;}
+
+/*현황그래프*/
+.situationGraph { width:100%; height:315px; margin-top:60px; overflow-x:scroll;  position:relative; }
+.graphBox { width:100%; height:297px; background:url(http://image.career.co.kr/career_new/event/2017/moti/sub/graphline.png) 0 center repeat-x; margin:0 auto; }
+.graphBox .graphCenter { margin:0 auto; }
+.situationGraph dl { width:90px; float:left; position:absolute; bottom:30px; text-align:center; }
+.situationGraph dl dt { font-size:16px; position:absolute; bottom:19px; }
+.situationGraph dl .graph { width:50px; background:#4790ff; text-indent:-9999999px; height:0; margin:0 20px; margin-top:5px; }
+.situationGraph dl dd { font-size:13px; font-weight:bold; line-height:18px; min-height:36px; position:absolute; bottom:-22px; width:90px; }
+.situationGraph dl dt .blue { color:#4790ff; }

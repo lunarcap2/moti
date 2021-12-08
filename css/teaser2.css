@@ -1,0 +1,476 @@
+@charset "euc-kr";
+
+/*****************************************************
+* 파 일 명 : teaser2.css
+* 작 성 자 : UI팀
+* 작 성 일 : 2017-02-14
+*****************************************************/
+
+/*개인참가신청*/
+.teaser2-1 .main_text {/* font-family:'ng'; */font-size:16px; line-height:30px; color:#333;}
+.teaser2-1 .text1 {position:relative;padding-bottom:30px;font-size:16px; line-height:26px; color:#333;}
+.teaser2-1 .text1.per_txt {margin-top:-20px;}
+.teaser2-1 .text2 {padding:15px 0 0; /* font-family:'ng'; */ font-size:16px; line-height:26px; color:#333;}
+.teaser2-1 .memberCheck {position:absolute; right:17px; top:20px;}
+.teaser2-1 .memberCheck label,
+.teaser2-1 .memberCheck input,
+.teaser2-1 .memberCheck img {float:left;}
+.teaser2-1 .memberCheck .rdi1 {margin-right:5px;}
+.teaser2-1 .memberCheck .lb1 {margin-right:24px;}
+.teaser2-1 .memberCheck .rdi2 {margin-right:5px;}
+.teaser2-1 .memberCheck .lb2 {}
+.teaser2-1 .agreeBox {}
+.teaser2-1 .agreeBox .text1 {padding:15px 0 0; font-size:16px; color:#000;}
+.teaser2-1 .agreeBox .text2 {padding:30px; background-color:#f4f4f4; border:1px solid #ddd;/* font-family:'ng'; */font-size:14px; line-height:28px; color:#666;}
+.teaser2-1 .agreeBox .text2 > p {padding-top:30px;}
+.teaser2-1 .agreeBox .text2 > p:first-child {padding-top:0;}
+.teaser2-1 .agreeBox .text2 ol {font-size:14px;line-height:24px;color:#333;}
+.teaser2-1 .agreeBox .text2 li {padding-top:30px;}
+.teaser2-1 .agreeBox .text2 li:first-child {padding-top:0;}
+.teaser2-1 .agreeBox .text2 li strong {/* font-family:'ngb'; */font-size:16px;color:#000;}
+.teaser2-1 .agreeBox .text2 li strong + dl {padding:0;}
+.teaser2-1 .agreeBox .text2 dl {padding:30px 0 0 0;margin:0;background-color:transparent;border:none;}
+.teaser2-1 .agreeBox dl {padding:10px; background-color:#f4f4f4; border:1px solid #ddd;font-size:14px; line-height:28px; color:#666;}
+.teaser2-1 .agreeBox dt {float:left; margin-right:4px; /* font-family:'ngb'; */ color:#333;}
+.teaser2-1 .agreeBox dt:after{content:"";display:block;clear:both;}
+.teaser2-1 .agreeBox dt:before{content:"ㆍ";display:inline-block;clear:both;}
+.teaser2-1 .agreeBox dt.item + dd {width:100%; overflow:hidden; margin-left:10px;}
+.teaser2-1 .agreeBox dd {}
+.teaser2-1 .agreeBox .agreeChk {/* font-family:'ng'; */ padding-top:15px; font-size:15px; color:#333;}
+.teaser2-1 .agreeBox .agreeChk:after{content:"";display:block;clear:both;}
+.teaser2-1 .agreeBox .agreeChk .noti {font-size:14px; color:#f00; line-height:26px;}
+.teaser2-1 .agreeBox .agreeAll {padding:40px 0; border-bottom:1px solid #ddd;}
+.teaser2-1 .agreeBox .agreeAll:after{content:"";display:block;clear:both;}
+
+
+.teaser2-1 .agreeBox .agreeBox .noti {padding-top:10px; font-size:13px; color:#f00;}
+.teaser2-1 .imgBox {padding-top:30px;}
+.teaser2-1 .imgBox p {padding-top:15px; /* font-family:'ng'; */ font-size:16px; line-height:26px; color:#000;}
+.teaser2-1 .imgBox .txt {color:#0090ff;}
+.teaser2-1 .imgBox p strong {/* font-family:'ngb'; */ color:#0067b7;}
+.teaser2-1 .comment {clear:both; padding-top:14px;}
+.teaser2-1 .complete {margin:50px auto 0; text-align:center;}
+.teaser2-1 .complete a,
+.teaser2-1 .complete button {display:inline-block; padding:19px 40px; margin:0 auto; background-color:#0090ff; border:1px solid #007dde; /* font-family:'ngb'; */font-size:18px; color:#fff; text-indent:0; letter-spacing:-0.075rem;}
+.teaser2-1 .complete button,
+.teaser2-1 .complete a {margin-left:7px;}
+.teaser2-1 .complete button:first-child,
+.teaser2-1 .complete a:first-child {margin-left:0;}
+.teaser2-1 .complete a {min-width:168px; padding:16px 25px;}
+.teaser2-1 .complete .typeWhite {background-color:#fff; border:1px solid #ccc; color:#191919;}
+.teaser2-1 .complete button[type='reset'] {width:210px;}
+
+.teaser2-1 .complete .submit .txt {font-size:15px;}
+.contentWrap #confirmForm {width:860px; margin:0 auto 30px; padding:20px; background-color:#fbfbfb; border-top:1px solid #dadada; border-bottom:1px solid #dadada; line-height:18px;}
+.contentWrap #confirmForm .rdi,
+.contentWrap #confirmForm label {vertical-align:baseline;}
+
+/* 서브타이틀 */
+.teaser2-1 .titArea {position:relative; zoom:1; padding:50px 0 20px;}
+.teaser2-1 .titArea:first-child {padding-top:0;}
+.teaser2-1 .titArea h3 {font-size:28px; color:#006dfd; letter-spacing:-2px; font-weight:normal;}
+.teaser2-1 .titArea.brdNone {border-bottom:none;}
+
+/* 로그인 */
+.userlogin {position:relative; margin-bottom:-1px; padding:14px 0; background-color:#fcfcfc; border-top:1px solid #c5c5c5; border-bottom:1px solid #dedede; font-size:0; text-align:center;}
+.userlogin img {vertical-align:middle;}
+.userlogin .txt {width:140px; height:23px; line-height:23px;}
+.userlogin .id {margin-right:19px;}
+.userlogin .passwd {margin-right:13px;}
+.userlogin .login {display:inline-block; width:67px; height:25px; background-image:url(https://image.career.co.kr/career_new/event/2012/hyundai/teaser2-1-login.gif);}
+
+/* 개인정보 수정 */
+.usermodify {height:25px; overflow:hidden; padding:10px 0 4px; border-top:1px solid #c5c5c5;}
+.usermodify .modify {float:right; width:97px; height:23px; background-image:url(https://image.career.co.kr/career_new/event/2012/hyundai/teaser2-1-modify.gif);}
+
+/* join_2009.css */
+/* 약관 및 취급방침 */
+.join_contents_p2 .stipulation_txt {overflow-x:hidden; overflow-y:auto; width:826px; height:119px; padding:10px; border:1px solid #e5e5e5; color:#464646; line-height:18px;}
+.join_contents_p2 .stipulation_txt p {margin:15px 0 0 0; line-height:20px;font-size:12px; color:#666;}
+
+/* 경고 말풍선 */
+#join_wrap #msg_box {clear:both; margin:5px 0 0 107px;}
+.teaser2-1 .text_balloon_left .btn,
+.teaser2-1 .text_balloon_left .btn img {vertical-align:top;}
+.teaser2-1 .text_balloon_left .btn {display:inline-block; position:relative; left:5px; top:3px; margin-top:-11px;}
+.teaser2-1 .text_balloon_right{display:inline-block; float:left; padding-left: 10px;}
+.teaser2-1 .text_balloon_right span{/* font-family:'ng'; */ font-size:13px; line-height:34px; color: #ff0000; vertical-align:middle;}
+.teaser2-1 .text_balloon_right span.right{color: #006cff;}
+
+/* 등록테이블 */
+.join_contents_p2 .tblDesc {padding-bottom:15px; /* font-family:'ng'; */ font-size:14px; color:#f00;}
+.join_contents_p2 .input_tb {width:100%;border: solid #ededed;border-width:1px 0 0;}
+.join_contents_p2 .input_tb .fs_11d {font-size:11px; font-weight:normal; letter-spacing:-1px;}
+.join_contents_p2 .input_tb th {padding:18px 0 18px 18px; background-color:#f8f8f8; border:solid #ededed; border-width:0 1px 1px;font-size:17px; color:#000; text-align:left;}
+.join_contents_p2 .input_tb th:first-child {border-left:none;}
+.join_contents_p2 .input_tb th.tc {padding:0;text-align:center;vertical-align:middle;}
+.join_contents_p2 .input_tb td {padding:10px 0 10px 20px; border-bottom:1px solid #ededed;font-size:13px; color:#666;}
+.join_contents_p2 .input_tb td .textL {margin:0 10px 0 6px; vertical-align:middle;}
+.join_contents_p2 .input_tb td .textR {margin:0 6px 0 10px; vertical-align:middle;}
+.join_contents_p2 .input_tb td .hyphen {margin:0 6px; vertical-align:middle;}
+.join_contents_p2 .input_tb select {height:34px; line-height:32px; border:1px solid #dfdfdf;font-size:13px; color:#666;}
+.join_contents_p2 .input_tb .btn {display:inline-block; height:32px; padding:0 15px; background-color:#006cff; border:1px solid #005ddb; /* font-family:'ngb'; */ font-size:14px; color:#fff; line-height:32px; vertical-align:middle;}
+
+.join_contents_p2 .input_tb input {}
+.join_contents_p2 .input_tb input.rdi,
+.join_contents_p2 .input_tb input.chk {}
+.join_contents_p2 .input_tb .td_r {border-right:1px solid #ededed;}
+.join_contents_p2 .input_tb .df_input {width:132px; height:17px; padding-top:3px; border:1px solid #cdcdcd; vertical-align:middle;}
+.join_contents_p2 .input_tb .qa_select {width:285px; letter-spacing:-1px; font-size:12px; height: 25px}
+.join_contents_p2 .input_tb .pw_answer_input {width:283px; height:17px; padding-top:3px; border:1px solid #cdcdcd;}
+.join_contents_p2 .input_tb .email_select {width:127px; font-size:12px; vertical-align:middle;}
+.join_contents_p2 .input_tb .add_input01 {width:115px; height:17px; padding-top:3px; border:1px solid #cdcdcd; vertical-align:middle;}
+.join_contents_p2 .input_tb .add_input02 {width:283px; height:17px; padding-top:3px; border:1px solid #cdcdcd; vertical-align:middle;}
+.join_contents_p2 .input_tb .mt_5 {margin-top:5px;}
+.join_contents_p2 .input_tb .h23 {height:23px;}
+.join_contents_p2 .input_tb .tell_txt {display:block; float:left; width:55px; padding-top:5px; font-weight:bold;}
+.join_contents_p2 .input_tb .phone01 {}
+.join_contents_p2 .input_tb .phone02 {height:17px; padding-top:3px; border:1px solid #cdcdcd; vertical-align:middle;}
+.join_contents_p2 .input_tb .news_txt {margin-right:17px; font-weight:bold; letter-spacing:-1px;}
+.join_contents_p2 .input_tb .mail_txt {margin-right:17px; letter-spacing:-1px;font-weight:normal;}
+.join_contents_p2 .input_tb .receipt_txt li {padding:3px 0;}
+.join_contents_p2 .input_tb .gray_box {width:621px; height:94px; padding:7px 10px; border:5px solid #eaeaea;}
+.join_contents_p2 .input_tb .custom_txt {margin:10px 0 0 25px; font-size:11px; font-weight:normal; letter-spacing:-1px;}
+.join_contents_p2 .input_tb #mem_root_9 input { vertical-align:middle; position:relative; top:-3px; }
+.join_contents_p2 .input_tb tr.area th {height:20px; padding:9px 5px 9px 25px; background-position:14px 20px !important; line-height:32px;}
+.join_contents_p2 .input_tb tr.area td {height:20px; background-position:0 18px !important; line-height:18px;}
+.join_contents_p2 .input_tb tr.area td .chk {margin:0 3px 3px 0; vertical-align:middle;}
+.join_contents_p2 .input_tb tr.area td .lb {margin-right:16px; vertical-align:middle;}
+.join_contents_p2 .input_tb .agree {padding-right:0;}
+.join_contents_p2 .input_tb .agree label.checkbox {padding-left:20px; margin-left:7px;background-position:0 50%; line-height:15px;}
+.join_contents_p2 .input_tb .agree label.checkbox span {}
+.join_contents_p2 .input_tb .agree .text {margin:0; font-size:13px;}
+
+/* 테이블 안쪽 필드 */
+.join_contents_p2 .inner_th .rdi {width:13px; height:13px; margin:0 4px 0 0;}
+.join_contents_p2 .inner_td,
+.join_contents_p2 .inner_th {float:left; height:1%; line-height:22px;}
+.join_contents_p2 .inner_td {width:275px;}
+.join_contents_p2 .inner_th dl {height:1%; padding-top:2px;}
+.join_contents_p2 .inner_th dl:after {content:""; display:block; clear:both;}
+.join_contents_p2 .inner_th dt {float:left; width:100px; height:23px; padding-left:25px; background: url('https://image.career.co.kr/career_new/event/2013/fair/self_th_bg.gif') no-repeat 14px 5px; color:#464646; letter-spacing:-1px; text-align:left; vertical-align:top; font-weight:bold;}
+.join_contents_p2 .inner_th dd {float:left; padding-left:20px; background: url('https://image.career.co.kr/career_new/event/2013/fair/self_td_bg.gif') no-repeat left 4px;}
+.join_contents_p2 .inner_th dd label {display:inline-block; margin-right:10px;}
+
+.join_contents_p2 .input_tb .etcFile {padding:10px 0 0 0;font-size:14px;line-height:24px;}
+.join_contents_p2 .input_tb .etcFile dt {/* font-family:'ngb'; */color:#333;}
+.join_contents_p2 .input_tb .etcFile dd {text-indent:7px;color:#666;}
+.join_contents_p2 .input_tb .regiFile {}
+.join_contents_p2 .input_tb .regiFile span.typebox {display:inline-block;position:relative;width:513px; height:40px;vertical-align:middle;}
+.join_contents_p2 .input_tb .regiFile span.typebox input.txt {position:relative;width:100%;height:38px;padding:0;letter-spacing:0;line-height:40px;}
+.join_contents_p2 .input_tb .regiFile span.typebox input[type=file]{position:absolute;left:0;top:0;z-index:2;width:100%;height:100%;opacity:0;filter:alpha(opacity=0);cursor:pointer;}
+.join_contents_p2 .input_tb .regiFile span.typebox button {position:absolute;right:-2px;top:0;z-index:1;width:121px;height:40px; background-color:#006cff; border:1px solid #005ddb; /* font-family:'ngb'; */ font-size:15px;color:#fff; line-height:40px; text-align:center;text-indent:0;}
+.join_contents_p2 .input_tb .regiFile button[type=reset] {width:121px;height:40px;margin-left:5px;background-color:#595959; border:1px solid #414141; /* font-family:'ngb'; */ font-size:15px;color:#fff; line-height:40px; text-align:center;vertical-align:middle;}
+
+
+/* 입력폼 */
+#join_wrap.form {width:auto; /*margin:12px 0 0;*/}
+#join_wrap.form .inner {width:auto; padding:0;}
+#join_wrap select {}
+#join_wrap .inputWrap {margin-top:20px;}
+#join_wrap .inblock label,
+#join_wrap .inblock {display:inline-block;}
+#join_wrap .chklist {}
+#join_wrap .join_contents_p2 .input_tb {}
+#join_wrap .join_contents_p2 .space td {height:14px; padding:0; border-bottom:1px solid #1466c8;}
+#join_wrap .join_contents_p2 .input_tb th {}
+#join_wrap .join_contents_p2 .input_tb .edu_select {width:150px;}
+#join_wrap .join_contents_p2 .input_tb .exp_select {width:110px;}
+#join_wrap .join_contents_p2 .input_tb .jobs_select {width:200px;}
+#join_wrap .join_contents_p2 .input_tb .pay_select {width:111px;}
+
+/* 비활성 */
+.disable {cursor:default; opacity:0.25; filter:alpha(opacity=25);}
+.disable select {display:none;}
+.disable input.txt.on {border-color:#bbb !important;}
+label.radiobox.disable {background:url(/images/rdi_dis.png) no-repeat; opacity:1;}
+
+.join_contents_p2 .input_tb .inputOn {}
+.join_contents_p2 .input_tb .inputOff {}
+.join_contents_p2 .input_tb .inputFile {} /* 파일필드일 경우 적용 */
+/* 약관 */
+.txt_stipulation dt {font-weight:bold;}
+.txt_stipulation dd {padding-left:15px;}
+.txt_stipulation02 li {padding-left:15px;}
+.title_stipulation {font-size:14px; text-align:center;}
+
+
+/* 2013박람회 추가 */
+
+.confirmBox{height: 173px; margin-bottom: 30px; background: #fafafa; border: 1px solid #ededed; text-align: center;}
+.confirmBox .userLogin{text-align: left;}
+.confirmBox .userLogin label.id{padding-right: 15px}
+.confirmBox .userLogin label input{height: 23px; border: 1px solid #c5c5c5; line-height: 23px;}
+.confirmBox span.userLogin{display: inline-block; padding: 75px 0 0 0 ;}
+.confirmBox span.loginFailure{display: inline-block; padding-top: 37px;}
+.confirmBox span.loginFailure strong{color: #ff0000; font-size: 14px;}
+.confirmBox span.loginFailure p{padding: 11px 0 20px 0;}
+.confirmBox span.loginSucess{display: inline-block; padding-top: 67px;}
+.confirmBox span.loginSucess strong{font-size: 14px;}
+.confirmBox span.loginSucess strong span{color: #1466c8;}
+.confirmBox span.loginSucess p{padding: 11px 0 20px 0;}
+
+
+#otherConfirm{}
+#otherConfirm h4{padding: 18px 0 9px 30px;}
+#otherConfirm p.info{padding: 0 0 20px 30px;}
+#otherConfirm .inner{height: 230px; margin-bottom: 30px; background: #fafafa; border: 1px solid #ededed; border-width: 0 1px 1px 1px; text-align: center;}
+#otherConfirm .inner .tab{width: 100%; border-bottom: 2px solid #1466c8; overflow: hidden;}
+#otherConfirm .inner .tab li{float: left; width: 50%;}
+#otherConfirm .inner .tab li a{display: block; height: 31px; padding-top: 14px; background: #c5c5c5;}
+#otherConfirm .inner .tab li.on a{background: url('https://image.career.co.kr/career_new/event/2013/fair/selfconfirm_tab2_bg.gif') no-repeat left top #1466c8;}
+#otherConfirm .inner .tab li:first-child.on a{background: url('https://image.career.co.kr/career_new/event/2013/fair/selfconfirm_tab1_bg.gif') no-repeat right top #1466c8;}
+
+#otherConfirm .inner #selfConfirm .confirm p{padding: 23px 0 14px 0; font-weight: bold; font-size: 14px;}
+#otherConfirm .inner #selfConfirm .confirm ul{padding: 11px 0 0 29px; margin: 26px 0 0 0; border-top: 1px solid #ededed;}
+#otherConfirm .inner #selfConfirm .confirm li{text-align: left; line-height: 20px;}
+
+#otherConfirm .inner #selfConfirm .confirmEnd .txt{padding: 68px 0 11px 0; font-size: 14px; font-weight: bold;}
+#otherConfirm .inner #selfConfirm .confirmEnd .txt strong{color: #1466c8;}
+
+#otherConfirm .inner #iPin .ipin p.info{padding: 23px 0 14px 0; font-weight: bold; font-size: 14px;}
+#otherConfirm .inner #iPin .ipin p.txt{padding: 11px 0 0 29px; margin: 26px 0 0 0; border-top: 1px solid #ededed; text-align: left;}
+
+#otherConfirm .inner #iPin .ipinEnd .txt{padding: 68px 0 11px 0; font-size: 14px; font-weight: bold;}
+#otherConfirm .inner #iPin .ipinEnd .txt strong{color: #1466c8;}
+
+#otherConfirm .inner #iPin{display: none;}
+
+.joinTable th{}
+.joinTable td{}
+.joinTable td.single{}
+.joinTable td .chk,
+.joinTable td .rdi {}
+.joinTable td .lb {}
+
+.writingArea{padding:0;}
+.writingArea:after{content:"";display:block;clear:both;}
+.writingArea.mulRdi {display:block;margin:-10px 0 0 -18px;}
+.writingArea.mulRdi .noti,
+.writingArea .radiobox {margin:10px 0 0 18px;}
+.writingArea .radiobox:first-child {margin:10px 0 0 18px;}
+.writingArea .inner{float: left;}
+.writingArea .inner:after{content:"";display:block;clear:both;}
+.infoTxt{padding: 8px 0 0 0;}
+.infoTxt2{float: left; padding: 8px 0 0 18px;}
+.infoTxt2:after{content:"";display:block;clear:both;}
+
+.requestEnd{padding: 0 49px 70px 49px;}
+.requestEnd .endTxt1 {padding-bottom:40px; color:#464646;font-size:14px; text-align: center;}
+.requestEnd .endTxt1 span {color:#1466c8;}
+.requestEnd .endTxt1 em {color:#ff0000; font-weight:bold;}
+.requestEnd .endTxt2 {padding: 26px 0 26px 29px; border-top:1px solid #6e6e6e;}
+.requestEnd .endTxt2 strong{display: block;}
+.requestEnd .endTxt2 span {color:#1466c8;}
+.requestEnd .endTxt2 em {color:#ff0000; font-weight:bold;}
+.requestEnd .barcodeBox{padding: 39px 0 28px 0; border: 1px solid #ededed; background: #fafafa;}
+.requestEnd .barcodeBox .topInfo{width: 100%; overflow: hidden; padding-bottom: 39px;}
+.requestEnd .barcodeBox .topInfo span{position:relative; display: block; float: left; width: 264px; height: 114px; margin-left: 220px; border: 1px solid #ededed; background: #fff; text-align: center; _display: inline;}
+.requestEnd .barcodeBox .topInfo span img{position:absolute; left:13px; top:11px;}
+.requestEnd .barcodeBox .topInfo span strong{display: block; margin-top: 48px; color: #1466c8; font-size: 26px;}
+.requestEnd .barcodeBox .topInfo div{float: left; padding: 14px 0 0 24px;}
+.requestEnd .barcodeBox .topInfo div dl:after{content:" "; display:block; clear:both; height:0; visibility:hidden;}
+.requestEnd .barcodeBox .topInfo div dl dt{width:67px; margin-right:14px; padding-left:9px; background:url(https://image.career.co.kr/career_new/event/2014/hyundai/dt_registerEntry.gif) no-repeat 0 50%; font-weight:bold;}
+.requestEnd .barcodeBox .topInfo div dl dt,
+.requestEnd .barcodeBox .topInfo div dl dd{float: left; margin-bottom:10px; height: 15px; line-height:1.64em;}
+.requestEnd .barcodeBox .bottomTxt {width:818px; margin:0 auto; padding-top: 30px; background:url(https://image.career.co.kr/career_new/event/2014/hyundai/bg_registerEntry.gif) repeat-x 0 0;}
+.requestEnd .barcodeBox .bottomTxt ul {padding-left:10px; line-height:20px;}
+.requestEnd .barcodeBox .bottomTxt li {color:#464646;}
+.requestEnd .endbottomCon p{position: relative; padding: 13px 0 13px 32px; border-bottom: 1px solid #ededed;}
+.requestEnd .endbottomCon p strong{display: block; padding-bottom: 5px;}
+.requestEnd .endbottomCon p a{position: absolute; right: 25px; bottom: 14px; display: block;}
+.requestEnd .endBtn{padding-top: 30px; text-align: center;}
+.requestEnd .addText{padding: 28px 0 28px 33px;}
+.requestEnd .addText p{padding-bottom: 6px; font-weight: bold;}
+.requestEnd .addText li{position: relative; padding-left: 10px;}
+.requestEnd .addText li span{position: absolute; left: 0; top: 0; width: 10px;}
+.requestEnd .addText li strong{color: #1466c8; font-weight: normal;}
+
+
+/* 참여안내 */
+/* 개인참여 */
+.parti .titArea {padding:0 0 8px;}
+.parti .per {padding-top:50px;}
+.parti .per dl {padding-bottom:50px;}
+.parti .per dl:last-child {border-bottom:1px solid #d8d8d8;}
+.parti .per dl:after{content:"";display:block;clear:both;}
+.parti .per dl dt {overflow:hidden; margin-bottom:20px;/* font-family:'ngb'; */ font-size:24px; color:#333;}
+.parti .per dl dt a {display:inline-block; height:35px; padding:0 15px; margin-left:10px; background-color:#0053a4; border:1px solid #003e7a; line-height:29px; line-height:27px \0/IE8+9; text-align:center; vertical-align:top;}
+.parti .per dl dt a span {/* font-family:'ngb'; */ font-size:13px; color:#fff; vertical-align:middle;}
+.parti .per dl dt a span:after {content:""; display:inline-block; clear:both; width:5px; height:11px; margin-left:17px; background:url(/images/sprite_bg.png) no-repeat -11px -781px; vertical-align:-2px;}
+.parti .per dl dd {float:left; margin-left:19px;}
+.parti .per dl dt + dd {margin-left:0;}
+.parti .per dl dd:after{content:"";display:block;clear:both;}
+.parti .per dl dd p {padding-top:18px;}
+.parti .per dl dd p strong {float:left; width:50px; height:35px; margin-top:4px; border-right:1px solid #d8d8d8; font-size:42px; color:#333; line-height:34px; vertical-align:middle;}
+.parti .per dl dd p strong.type4 {width:40px;font-size:30px;}
+.parti .per dl dd p span {display:inline-block; padding-left:5px; /* font-family:'ngb'; */ font-size:16px; color:#333; line-height:22px; vertical-align:middle;}
+.parti .per dl dd p em {color:#0090ff;}
+.parti .per dl dd .four_cut_img {width:233px;}
+.parti .per dl dd .lt_spcng {font-size:14px;letter-spacing:-2px;}
+.parti .per .noti {padding-top:50px; /* font-family:'ngb'; */ font-size:14px; color:#ff5a00;}
+.parti .per .guide {padding:22px 22px 18px; margin-top:20px;border:1px solid #d8d8d8;/*  text-align:center; */}
+.parti .per .guide dl {display:inline-block; padding:0; /* font-family:'ngb'; */ color:#333;}
+.parti .per .guide dl dt {float:left; height:51px; padding-right:30px; margin-bottom:0; border-right:1px solid #d8d8d8; font-size:22px; color:#333; line-height:51px; vertical-align:middle;}
+.parti .per .guide dl dd {width:765px;px;padding-left:30px; margin-top:4px; font-size:13px; line-height:22px; text-align:left;}
+
+/* 기업참여 */
+.parti .comp dl,
+.parti .comp ul {padding-top:20px;}
+.parti .comp ul li {/* font-family:'ng'; */ font-size:16px; line-height:34px; color:#333;}
+.parti .comp ul li:before{content:"";display:inline-block; clear:both; width:5px; height:4px; padding-left:7px; background:url(/images/sprite_bg.png) no-repeat 0 -693px; vertical-align:middle; color:#000;}
+.parti .comp dl {line-height:34px;}
+.parti .comp dl:after{content:"";display:block;clear:both;}
+.parti .comp dl dt {margin-right:4px; /* font-family:'ngb'; */ font-size:16px; color:#000;}
+.parti .comp dl dt:first-child {float:left;}
+.parti .comp dl dt:first-child + dd:before {content:"";}
+.parti .comp dl dt:before {content:"";display:inline-block; clear:both; width:5px; height:4px; padding-left:7px; background:url(/images/sprite_bg.png) no-repeat 0 -693px; vertical-align:middle; color:#000;}
+.parti .comp dl dd {margin-left:18px; /* font-family:'ng'; */ font-size:16px; color:#333; text-indent:-4px;}
+.parti .comp dl dd:before{content:"-";display:inline-block;clear:both; margin-right:2px;}
+.parti .comp dl dd em,
+.parti .comp dl dd a {/* font-family:'ngb'; */}
+.parti .comp dl dd a {border-bottom:1px solid #006cff;}
+.parti .comp dl dd .btnDown {display:inline-block; height:30px; padding:0 8px; margin:0 5px;background-color:#0053a4; border:1px solid #0f4982; /* font-family:'ngb'; */ font-size:14px; color:#fff; text-align:center; line-height:30px;}
+.parti .comp .noti {margin-left:15px; /* font-family:'ng'; */ font-size:16px; color:#ff5a00; text-indent:-15px; line-height:26px;}
+/* 사전등록 */
+.parti .register {}
+.parti .register ol {padding-top:20px;}
+.parti .register ol li {/* font-family:'ng'; */ font-size:16px; line-height:34px; color:#333;}
+.parti .register ol li p {padding-left:15px;}
+.parti .register ol li a {display:inline-block; height:30px; padding:0 8px; margin:0 5px;background-color:#0053a4; border:1px solid #0f4982; /* font-family:'ngb'; */ font-size:14px; color:#fff; text-align:center; line-height:30px;}
+.parti .register .progress ul {padding-top:50px;}
+.parti .register .progress ul:after {display:block; content:""; clear:both;}
+.parti .register .progress ul li {position:relative; float:left; width:203px; height:203px; margin-left:62px; background:url(/images/bridge/bg_sprite.png) no-repeat; font-size:0; text-indent:-9999em;}
+.parti .register .progress ul li:after {display:inline-block; content:""; position:absolute; top:50%; left:-35px; width:9px; height:15px; margin-top:-7px; background:url(/images/bridge/bg_sprite.png) no-repeat -39px -825px;}
+.parti .register .progress ul li:first-child {margin-left:0;}
+.parti .register .progress ul li:first-child:after {background:none;}
+.parti .register .progress ul li.li01 {}
+.parti .register .progress ul li.li02 {}
+.parti .register .progress ul li.li03 {background-position:-443px -406px;}
+.parti .register .progress ul li.li04 {background-position:-443px -609px;}
+
+.methodArea .btnArea {padding:40px 0 90px; text-align:center;}
+.methodArea .btnArea a {display:inline-block; padding:0 40px; height:54px; margin-left:10px;/* font-family:'ngb'; */ font-size:17px; color:#fff; text-align:center; line-height:54px; text-align:center;}
+.methodArea .btnArea a:first-child {margin-left:0px;}
+.methodArea .btnArea a.file1 {background-color:#1f81fc; border:1px solid #0d4c9e;}
+.methodArea .btnArea a.file2 {background-color:#295599; border:1px solid #04265a;}
+.methodArea .btnArea a.file3 {background-color:#6b9d3c; border:1px solid #3a6d0b;}
+
+/* 사전등록신청 */
+.regiApply .join_contents_p2 .input_tb {border-top:1px solid #ededed;}
+.regiApply .join_contents_p2 .input_tb th:before{content:"\002A";display:inline-block;clear:both;margin-right:4px;/* font-family:'ngb'; */font-size:15px;color:#f00;}
+/* 사전등록완료 */
+.regiComp .titleWrap .inner {margin-bottom:50px;}
+.regiComp .titArea {display:block; padding:0 0 8px; border-bottom:3px solid #006cff; font-size:36px; color:#000; line-height:1;}
+.regiComp .titArea.noLine {border-bottom:none;}
+.regiComp .mtArea:after{content:"";display:block;clear:both;}
+.regiComp .mtArea .mtNum {display:table; float:left; /* font-family:'ngb'; */ font-size:24px; color:#333;}
+.regiComp .mtArea .mtNum p {display:table-cell; width:269px; height:209px; border:3px solid #0090ff; vertical-align:middle; text-align:center;}
+.regiComp .mtArea .mtNum strong  {font-size:36px; color:#ff8400;}
+.regiComp .mtArea .inputWrap {float:right;}
+.regiComp .mtArea .inputWrap .input_tb {width:714px; border:solid #e8e8e8;border-width:1px 1px 0 1px;}
+.regiComp .mtArea .inputWrap .input_tb th,
+.regiComp .mtArea .inputWrap .input_tb td {height:52px;padding:0 5px; border-color:#e8e8e8; font-size:15px;vertical-align:middle;word-break:keep-all;}
+
+/* 취업사관학교 신청자 정보 */
+.applicant .join_contents_p2 .inputWrap + .inputWrap { margin-top:15px !important; }
+.applicant .join_contents_p2 .input_tb {border-top:1px solid #ededed; }
+.applicant .input_tb label.radiobox { margin:0 15px 0 0; }
+.applicant .input_tb label.radiobox input.rdi { float:left; }
+.applicant .input_tb label.radiobox input.rdi span { display:block; height:50px; }
+.applicant .input_tb label.radiobox.black { font-weight:bold; }
+.applicant .input_tb label.radiobox.gray2 font { color:#999; }
+.applicant .input_tb .btn { text-indent:0; }
+.applicant .input_tb thead th {text-align:center;border-right:none;}
+.applicant .input_tb th strong { color:#006cff; }
+.applicant .input_tb td .mulRdi label.radiobox { min-width:130px;height:auto;font-size:13px;margin:5px 0 10px; line-height:130%; }
+.applicant .input_tb td .blueBtn { height:38px; padding:0 20px; vertical-align:-2px; }
+.applicant .input_tb td span.red,
+.applicant .input_tb td p.blue,
+.applicant .input_tb td span.blue { font-size:13px; }
+.applicant .input_tb td label.radiobox span { vertical-align:top; }
+.applicant .input_tb td label.radiobox font { margin-left:5px; }
+.applicant .input_tb td input.point {border-color:#f00; }
+.applicant .noti { padding-bottom:10px; color:#f00; }
+
+/* 통합역량검사 */
+.bothArea{padding-top:50px;}
+.bothArea:after{content:"";display:block;clear:both;}
+.bothArea > div {width:490px;}
+.bothArea > div dt {padding-bottom:5px;font-size:30px;color:#006cff;}
+/* .bothArea > div dt > div {padding-top:0;} */
+.bothArea > div dd {/* font-family:'ng'; */font-size:16px; color:#333; line-height:26px;}
+
+.inSeedInfo {padding-top:50px;}
+.inSeedInfo .infoBox {padding:30px 0;background-color:#0053a4;text-align:center;}
+.inSeedInfo .infoBox p {/* font-family:'ngb'; */font-size:18px;color:#fff;}
+.inSeedInfo .infoBox p a{margin-left:10px;color:#ffea00;}
+.inSeedInfo .infoBox p a:after{content:"";display:inline-block;clear:both;width:5px;height:9px;margin-left:8px;background:url(/images/sprite_bg.png) no-repeat -25px -782px;vertical-align:middle;}
+.inSeedInfo .infoBox ul{display:inline-block;}
+.inSeedInfo .infoBox ul:after{content:"";display:block;clear:both;}
+.inSeedInfo .infoBox li {float:left;/* font-family:'ngb'; */font-size:18px;color:#fff;}
+.inSeedInfo .infoBox li:first-child:after{content:"\2223";display:inline-block;clear:both;padding-left:15px;margin-right:15px;/* font-family:'ngb'; */font-size:18px;color:#56718b;}
+.inSeedInfo .infoBox li strong {color:#78b0e6;}
+.inSeedInfo .infoBox li span {margin-left:5px;}
+.inSeedInfo .infoBox .noti {font-size:15px; color:#ff9d5c;}
+
+/* 참여안내 > 기업 참여신청 */
+#contents .content.apply {margin:25px auto 0;}
+.car_enterprise h3 {font-size:24px;color:#333;text-align:center;}
+.car_enterprise h3 span {font-size:14px;color:#666;}
+.car_enterprise ul {overflow:hidden;padding:20px 0;}
+.car_enterprise ul li {float:left;padding-left:60px;background:url(https://image.career.co.kr/career_new/event/2018/mojak/apply_step_arrow.png) no-repeat 28px 50%;}
+.car_enterprise ul li:first-child {padding-left:0;background:none;}
+.car_enterprise p {line-height:2;font-size:16px;color:#000;}
+.car_enterprise p span {color:#f7131b;}
+.car_enterprise .info {padding:50px 0 0;}
+.car_enterprise .info h3 {padding:0 0 15px;border-bottom:1px solid #d8d8d8;}
+.car_enterprise .info h3 span {font-size:14px;color:#666;}
+.car_enterprise .info .btnArea {margin:55px 0 35px;}
+.car_enterprise .info .btnArea .btn {margin:0 25px;}
+.car_enterprise .info .btnArea .btn span {display:inline-block;width:29px;height:27px;vertical-align: middle;background:url(https://image.career.co.kr/career_new/event/2018/mojak/down_icon.png) no-repeat}
+.car_enterprise .info p {font-size:24px;color:#333;text-align:center;line-height:1.5em;}
+.car_enterprise .info p strong {display:block;font-size:33px;color:#ff8109;padding:0 0 15px;}
+
+/* 참여안내 > 사전참가신청 및 국방취업스쿨 신청 */
+.inputWrap h3 {font-size:34px;color:#000;}
+.btn_area_center {margin:10px 0 20px;text-align:center;}
+.btn_area_center .whiteBtn {display:inline-block;width:310px;padding:19px 40px;background:#fff;border:1px solid #dbdbdb;font-size:18px;color:#191919;}
+
+/* 이력서 파일 등록 */
+.fileArea {display:block;text-align:center;padding:30px 0;background:#f5f5f5;border:1px solid #e0e0e0;}
+.fileArea .typebox {display:inline-block;position:relative;width:960px;vertical-align:middle;font-size: 0;}
+.fileArea .typebox span {display:inline-block;font-size:16px;color:#010101;margin-right:15px;line-height:40px;vertical-align: middle;}
+.fileArea .typebox input.txt {position:relative;width:455px;height:40px;background:#fff;padding:0;letter-spacing:0;line-height:40px;margin-right:10px;}
+.fileArea .typebox .file {position:absolute;left:211px;top:0;z-index:2;width:455px;height:100%;opacity:0;filter:alpha(opacity=0);cursor:pointer;}
+.fileArea .typebox .fileBtn {position:absolute;right:168px;top:0;width:115px;height:100%;opacity:0;filter:alpha(opacity=0);cursor:pointer;}
+.fileArea button {display:inline-block;width:115px;height:40px; background-color:#666; border:1px solid #555;font-size:15px;color:#fff; line-height:40px; text-align:center;text-indent: 0;}
+.fileArea button[type=reset] {display:inline-block;width:115px;height:40px;margin-left:5px;background-color:#b3b3b3; border:1px solid #a4a4a4; font-size:15px;color:#fff; line-height:40px; text-align:center;vertical-align:middle;}
+.fileArea p {display:inline-block;font-size:14px;color:#666;margin:12px 0 0 -60px;}
+
+.priArea {display:block;border-bottom:1px solid #dcdcdc;padding:50px 20px 30px;margin:0 0 50px;}
+.priArea p.tit {display:block; line-height:1; font-size:22px; color:#000; padding: 0 0 0 20px;margin: 0 0 15px;background: url(/images/orange_star.png) no-repeat 0% 50%;}
+.priArea .agreeArea {padding:20px 30px;background-color:#fff; border:1px solid #dcdcdc; }
+.priArea .agreeArea ul{display:block;}
+.priArea .agreeArea ul li{font-size:13px;color:#666;line-height:2;}
+.priArea .agreeArea ul li em{color:#010101;}
+.priArea .agreeArea ul li p{text-indent:10px;font-size:14px;color:#666;line-height:2;}
+.priArea .agreeChk { padding-top:15px; font-size:15px; color:#333;}
+.priArea .agreeChk .noti {font-size:14px; color:#f00; line-height:26px;}
+.priArea .agreeChk label.checkbox {display:inline-block; zoom:1; height:25px; background:url(https://image.career.co.kr/career_new/event/2017/moti/sub/chk_off.gif) no-repeat 0 50%; line-height:18px;}
+.priArea .agreeChk label span {}
+.priArea .agreeChk label.checkbox.on {background-image:url(https://image.career.co.kr/career_new/event/2017/moti/sub/chk_on.gif); color:#006cff;}
+.priArea .agreeChk label.checkbox input.chk {width:18px; height:18px; margin-right:5px; opacity:0; filter:alpha(opacity=0);}
+.priArea .agreeChk label.checkbox span {margin-left:0; font-size:14px; line-height:1; color:#000; font-weight:bold;}
+.priArea .agreeChk label.checkbox.on span {color:#006cff;}
+.priArea  .noti {display:inline-block;font-size:14px; color:#ff3600;}
+
+.content .btnArea {display:block;width:100%;text-align:center;}
+.content .btnArea:after {content:""; display:block; clear:both;}
+.content .btnArea .btn {width:217px;display:inline-block;padding:0;height:58px;line-height:58px;font-weight:normal;text-align:center;text-indent:0;font-size:16px;color:#fff;}
+.content .btnArea .apply {background:#5a5a5a;border:1px solid #4e4e4e;}
+.content .btnArea .find {background:#0096ff;border:1px solid #0295fc;}
+.btnArea .btn.blue {background:#0096ff;color:#fff;border:1px solid #118ded;}
+.btnArea .btn.white {background:#fff;color:#333;border:1px solid #e5e5e5;}
+
+/* //CSS */
