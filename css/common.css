@@ -346,7 +346,7 @@ span.filebox input.file {z-index:3; width:100%;height:66px;margin:0; padding:0; 
 #header .gnb-wrap .gnb ul .my a {display:inline-block;line-height:1;padding:22px 20px;font-size: 16px;font-weight:bold;color: #fff;vertical-align:top;}
 #header .gnb-wrap .gnb ul .my .menu {position:relative;display:inline-block;vertical-align: top;margin:0;padding:0;}
 #header .gnb-wrap .gnb ul .my .menu > a {position:relative;height:60px;padding:23px 20px 21px 60px;box-sizing:border-box;}
-#header .gnb-wrap .gnb ul .my .menu > a:before {content:'';display:inline-block;position:absolute;top:50%;left:27px;width:28px;height:28px;margin-top:-14px;background:url('images/gnb_menu_icon.png') no-repeat;}
+#header .gnb-wrap .gnb ul .my .menu > a:before {content:'';display:inline-block;position:absolute;top:50%;left:27px;width:28px;height:28px;margin-top:-14px;background:url('../images/gnb_menu_icon.png') no-repeat;}
 #header .gnb-wrap .gnb ul .my .menu > a.member:before {background-position:0 0;}
 #header .gnb-wrap .gnb ul .my .menu > a.partners:before {background-position:0 -92px;}
 #header .gnb-wrap .gnb ul .my .menu + .menu {margin:0;padding:0;}
