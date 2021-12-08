@@ -1,0 +1,202 @@
+<!--#include virtual="/wwwconf/function/db/DBConnection.asp"-->
+<!--#include virtual="/common/common.asp"--> 
+<!--#include virtual="/inc/function/paging.asp"-->
+<%
+'--------------------------------------------------------------------
+'   Comment		: 공지사항 상세 보기
+' 	History		: 2020-07-17, 이샛별 
+'--------------------------------------------------------------------
+Session.CodePage  = 949			'한글
+Response.CharSet  = "euc-kr"	'한글
+Response.AddHeader "Pragma","no-cache"
+Response.AddHeader "cache-control", "no-staff"
+Response.Expires  = -1
+
+If Request.ServerVariables("HTTPS") = "off" Then 
+	Response.redirect "https://"& Request.ServerVariables("HTTP_HOST") & Request.ServerVariables("URL") 
+End If
+
+
+Dim seq			: seq			= Request("seq")		' 게시물 등록번호
+
+' 리턴 파라미터
+Dim gubun		: gubun			= Request("gubun")		' 게시판 구분
+Dim schKeyword	: schKeyword	= Request("schKeyword") ' 검색어(제목/내용)  
+Dim page		: page			= Request("page")
+
+
+If gubun = "" Then 
+	gubun = "1"
+Else 
+	gubun = gubun
+End If
+
+'취업동영상으로 접속시 로그인여부 체크
+If gubun = "4" And g_LoginChk = "0" Then
+	Response.redirect "/my/login.asp"
+	Response.end
+End If
+
+
+Dim ArrRs, ArrRsFile
+If seq = "" Then
+	Response.Write "<script language=javascript>"&_
+		"alert('전달된 게시물 정보가 없어 공지사항 목록으로 이동합니다.');"&_
+		"location.href='notice_list.asp';"&_
+		"</script>"
+	response.End 	
+Else 
+	ConnectDB DBCon, Application("DBInfo_FAIR")
+
+	ReDim Param(0)
+	Param(0) = makeparam("@idx",adInteger,adParamInput,4,seq)
+	ArrRs = arrGetRsSP(DBcon,"usp_board_view",Param,"","")
+
+	gubun		= ArrRs(1,0)
+	title		= ArrRs(5,0)
+	content		= ArrRs(6,0)
+	userName	= ArrRs(3,0)
+	jobs_id		= ArrRs(2,0)
+	BizName		= ArrRs(4,0)
+	regDate		= Left(Trim(arrRs(9,i)),10)	' 등록일자
+
+	ReDim Param(1)
+	Param(0)	= makeparam("@seq",adInteger,adParamInput,4,seq)
+	Param(1)	= makeparam("@idx",adInteger,adParamInput,4,"")
+
+	ArrRsFile	= arrGetRsSP(DBcon,"usp_board_files",Param,"","")
+
+	DisconnectDB DBCon
+End If 
+
+
+Dim stropt
+stropt = "gubun="&gubun&"&schKeyword="&schKeyword&"&page="&page
+%>
+<!--#include virtual = "/include/header/header.asp"-->
+</head>
+<body>
+
+<!-- 상단 -->
+<!--#include virtual = "/include/gnb/topMenu.asp"-->
+<!-- 상단 -->
+
+<!-- 본문 -->
+<div id="contents" class="sub_page">
+	<div class="sub_visual notice">
+		<div class="visual_area">
+			<% If gubun = "6" Then %>
+			<h2><img src="/images/h2_nCardNew.png" alt="카드뉴스"></h2>
+			<% ElseIf gubun = "4" Then %>
+			<h2><img src="/images/h2_fort.png" alt="자기소개서 영상"></h2>
+			<% Else %>
+			<h2><img src="/images/h2_notice.png" alt="공지사항"></h2>
+			<% End If %>
+		</div>
+	</div>
+	<div class="content">
+		<div class="con_box">
+			<div class="notice_area">
+				<% If gubun = "4" Then %>
+				<div class="thumb_notice">
+					<div class="thumb_inner">
+						<ul class="lst view">
+							<%
+							If isArray(ArrRsFile) Then
+								For i=0 To UBound(ArrRsFile,2)
+									Dim rs_fileUrl, rs_fileName
+									rs_fileUrl	= ArrRsFile(5,0)
+									rs_fileName	= ArrRsFile(3,0)
+							%>
+							<li class="tp">
+								<div class="inner">
+									<div class="lt">
+										<img src="/files/notice/<%=rs_fileUrl%>/<%=rs_fileName%>" width="200px" alt=""/>
+									</div>
+									<div class="cont">
+										<div class="tit lg"><%=title%></div>
+										<div class="stit lg">출처 : <%=BizName%></div>
+									</div>
+									
+								</div>
+								<div class="view_cont">
+									<div class="iframe">
+										<iframe width="700" height="455" src="<%=content%>" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+									</div>
+								</div>
+							</li>
+							<%
+								Next
+							End If
+							%>
+						</ul>
+
+						<div class="btn_area left">
+						</div>
+
+					</div>
+				</div>
+				<% Else %>
+				<div class="board_area view">
+					<table class="tb view" summary="공지사항">
+						<caption>공지사항</caption>
+						<colgroup>
+							<col style="width:20%"/>
+							<col style="width:30%"/>
+							<col style="width:20%"/>
+							<col style="width:30%"/>
+						</colgroup>
+						<tbody>
+							<tr>
+								<th>제목</th>
+								<td colspan="3"><%=title%></td>
+							</tr>
+							<tr>
+								<th>작성자</th>
+								<td>박람회 운영사무국</td>
+								<th>작성일</th>
+								<td><%=regDate%></td>
+							</tr>
+							<tr>
+								<td colspan="4">
+									<p style="text-align:center;"><%=CareerDeCrypt(content)%></p>
+								</td>
+							</tr>
+					
+					<%If isArray(ArrRsFile) And gubun = "1" Then%>
+							<tr>
+								<th>첨부파일</th>
+								<td colspan="3">								
+									<%For i=0 To UBound(ArrRsFile, 2)%>
+										<div class="file_box">
+											<a href="notice_file_download.asp?filePolder=<%=ArrRsFile(5, i)%>&fileName=<%=ArrRsFile(3, i)%>&originName=<%=ArrRsFile(4, i)%>"><%=ArrRsFile(4, i)%></a>
+										</div>
+									<%Next%>
+								</td>
+							</tr>
+					<%End If%>
+
+						</tbody>
+					</table>
+
+					
+
+				</div><!--//board_area-->
+				<% End If %>
+
+				<div class="btn_area right">
+					<a href="notice_list.asp?<%=stropt%>" class="btn gray left">목록</a>
+				</div>
+			</div><!--//notice_area-->
+		</div><!--//con_box-->
+	</div><!-- .content -->
+
+</div>
+<!-- //본문 -->
+
+<!-- 하단 -->
+<!--#include virtual = "/include/footer/footer.asp"-->
+<!-- 하단 -->
+
+</body>
+</html>
